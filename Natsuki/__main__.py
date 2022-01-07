@@ -63,22 +63,26 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hey There, My Name is 𝗡𝗮𝘁𝘀𝘂𝗸𝗶. 
-I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!
+ Hey There!
+I'm here to help you manage your groups!
+Commands available:[APPEAL](https://t.me/thecoolmoon)
+× /start: Start the bot
+× /help: Give's you this message.
+All commands can either be used with / OR !.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Natsuki News 🙋‍♂️", url="https://t.me/Natsuki_Updates"
+            text="ꜰᴇᴅ ᴊᴏɪɴ", url="https://t.me/tamilchating_fed"
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/NatsukiSupport_Official"
+            text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/luna_officials"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Source 🗒", url="Github.com/Sadew451"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/lunasupportz"
         ),
         InlineKeyboardButton(
             text="Command Help ❓", callback_data="help_back"
@@ -87,7 +91,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕ Add To Me Your Group ➕",
-            url="t.me/TheNatsukiBot?startgroup=true",
+            url="https://t.me/ThecoolmoonBot?startgroup=true",
         ),
     ],
 ]
@@ -95,14 +99,14 @@ buttons = [
 NATSUKI_IMG = "https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg)
-
-/start: Starts me! You've probably already used this.
-/help: Click this, I'll let you know about myself!
-/donate: You can support my creater using this command.
-/settings: 
-   in PM: will send you your settings for all supported modules.
-   in a Group: will redirect you to pm, with all that chat's settings.
+*Main Commands :*[thecoolmoon](https://telegra.ph/file/52b1b195f0d7df5ff79b2.jpg)
+╔ /start: Starts me! You've probably already used this.
+╠ /help: Click this, I'll let you know about myself!
+╠ /donate: You can support my creater using this command.
+╠ /settings : 
+╚══║in PM: will send you your settings for all supported modules.
+   ╚ in a Group: will redirect you to pm, with all that chat's settings.
+   Powered by : [ALAN WALKER](https://t.me/tamilchating_fed)
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
