@@ -1,5 +1,5 @@
 __help__ = """
-** ✨ Natsuki - A Powerful Telegram Group Manager ✨ **
+** ✨ thecoolmoon - A Powerful Telegram Group Manager ✨ **
 
 Powerful Abilities
 
@@ -11,9 +11,9 @@ Powerful Abilities
 
 • Channel Music Play 🎵
 
-Developer [SADEW JAYASEKARA](https://t.me/Darkridersslk)
+Developer [Alan walker](https://t.me/alpha_romeo_06)
 
-Support Group [Support](https://t.me/NatsukiSupport_Official)
+Support Group [Support](https://t.me/lunasupportz)
 
 """
 __mod_name__ = "About ⚡"
